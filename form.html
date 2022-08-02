@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <style>
+       .test{
+           color: red;
+       }
+       legend{
+           color: blue;
+       }
+    </style>
+</head>
+<body>
+    <h2>Reservation Request</h2>
+    <fieldset>
+        <legend><b> Genaral Information</b></legend>
+        <form action="">
+            <label for="">Arrival date:</label>
+            <input type="date" name="" id=""> <b class="test" > Arrival date is invalid</b>
+            <br> <br>
+            <label for="">Nights:</label>
+            <input type="text" name="" id=""> <b class="test" >Nights must be a number.</b>
+            <br><br>
+            <label for="">Adults:</label>
+            <input type="number" name="" id="">
+            <br><br>
+            <label for="">Children:</label>
+            <input type="number" name="" id="">
+        </form>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend> <b> Preferences</b></legend>
+        <form action="">
+            <label for="">Room type:</label>
+            <input type="radio" name="" id=""> Standard
+            <input type="radio" name="" id=""> Business
+            <input type="radio" name="" id=""> Suite
+            <br>
+            <label for="">Bed type:</label>
+            <input type="radio" name="" id=""> King
+            <input type="radio" name="" id=""> Double Double
+            <br>
+            <input type="checkbox" name="" id=""> Smoking
+        </form>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend><b>Contact Information</b></legend>
+        <label for="">Name:</label>
+        <input type="text" name="" id=""> <b class="test" >Name is required.</b>
+        <br><br>
+        <label for="">Email:</label>
+        <input type="email" name="" id=""> <b class="test"> Email address is invalid. </b>
+        <br><br>
+        <label for="">Phone:</label>
+        <input type="text" name="" id=""> <b class="test" >Phone number is invalid.</b>
+    </fieldset>
+    <br>
+    <button> <b> Submit reservation</b></button>
+    <button><b> Clear</b></button>
+    <hr>
+    <b>
+        <a href="index.html">Home page</a>
+    </b>
+
+
+</body>
+</html>
